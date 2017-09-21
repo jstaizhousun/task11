@@ -1,0 +1,77 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  background: #EFF0F4;
+}
+input {
+  border: none;
+  outline: none;
+}
+.header,
+.footer {
+  line-height: 6rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background: #68cdd5;
+}
+.header .left {
+  float: left;
+  padding-left: 2rem;
+}
+.header .right {
+  float: right;
+  padding-right: 2rem;
+}
+.main {
+  position: relative;
+  height: 18rem;
+}
+.main .icon1,
+.main .icon2 {
+  position: absolute;
+  width: 100%;
+}
+.main .icon1 .line,
+.main .icon2 .line {
+  position: absolute;
+  top: 1rem;
+  margin-left: 6rem;
+  width: .2rem;
+  height: 3rem;
+  background: #EFF0F4;
+}
+.main .icon1 {
+  top: 2rem;
+}
+.main .icon2 {
+  top: 10rem;
+}
+.main .text1,
+.main .text2 {
+  width: 100%;
+  height: 5rem;
+  padding-left: 8rem;
+  font-size: 2rem;
+  box-sizing: border-box;
+}
+.main .text1 {
+  background-image: url(image/iphone.png);
+  background-repeat: no-repeat;
+  background-position: 2rem;
+  background-size: 2rem;
+}
+.main .text2 {
+  background-image: url(image/locked.png);
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-position: 2rem;
+}
+.abc {
+  float: right;
+  padding-right: 2rem;
+  font-size: 2rem;
+  color: #68cdd5;
+}
